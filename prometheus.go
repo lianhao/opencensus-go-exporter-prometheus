@@ -14,7 +14,7 @@
 
 // Package prometheus contains a Prometheus exporter that supports exporting
 // OpenCensus views as Prometheus metrics.
-package prometheus // import "contrib.go.opencensus.io/exporter/prometheus"
+package prometheus // import "github.com/lianhao/opencensus-go-exporter-prometheus/prometheus"
 
 import (
 	"context"
@@ -25,9 +25,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"go.opencensus.io/metric/metricdata"
-	"go.opencensus.io/metric/metricexport"
-	"go.opencensus.io/stats/view"
+	"github.com/lianhao/opencensus-go/metric/metricdata"
+	"github.com/lianhao/opencensus-go/metric/metricexport"
+	"github.com/lianhao/opencensus-go/stats/view"
 )
 
 // Exporter exports stats to Prometheus, users need

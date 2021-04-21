@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"go.opencensus.io/resource"
-	"go.opencensus.io/stats"
-	"go.opencensus.io/stats/view"
-	"go.opencensus.io/tag"
+	"github.com/lianhao/opencensus-go/resource"
+	"github.com/lianhao/opencensus-go/stats"
+	"github.com/lianhao/opencensus-go/stats/view"
+	"github.com/lianhao/opencensus-go/tag"
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/prometheus/client_golang/prometheus"
